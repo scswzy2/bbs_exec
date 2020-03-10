@@ -93,8 +93,8 @@
                     <div class="clear"></div>
                 </div>
                 <div class="loginControl">
-                    <div class="rememberMe"><a href="${pageContext.request.contextPath }/www.baidu.com">忘记密码</a></div>
-                    <input type="button" value="注册" class="dredB logMeIn" style="margin-left: 15px"/>
+                    <div class="rememberMe"><a href="${pageContext.request.contextPath }/#">忘记密码</a></div>
+                    <a href="${pageContext.request.contextPath}/register.jsp"><input type="button" value="注册" class="dredB logMeIn" style="margin-left: 15px"/></a>
                     <input type="submit" value="登录" class="dredB logMeIn" />
                     <div class="clear"></div>
                 </div>
