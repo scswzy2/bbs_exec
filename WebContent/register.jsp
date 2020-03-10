@@ -239,11 +239,11 @@
                     </div>
                     <div class="formRow">
                         <label>确认密码:<span class="req">*</span></label>
-                        <div class="formRight"><input type="password" class="validate[required]" name="reLoginPsw" id="password1" /></div><div class="clear"></div>
+                        <div class="formRight"><input type="password" class="validate[required,equals[password1]]" name="reLoginPsw" id="password2" /></div><div class="clear"></div>
                     </div>
                     <div class="formRow">
                         <label>昵称:<span class="req">*</span></label>
-                        <div class="formRight"><input type="text" class="validate[required,minSize[6]]" name="userAlice" id="minValid"/></div><div class="clear"></div>
+                        <div class="formRight"><input type="text" class="validate[required,minSize[1]]" name="userAlice" id="minValid"/></div><div class="clear"></div>
                     </div>
                     <div class="formRow">
                         <label>邮箱:<span class="req">*</span></label>
